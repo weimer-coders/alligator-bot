@@ -2,7 +2,7 @@
 
 Alligator Bot is a Slack bot that serves as a mini-CMS for the [Independent Florida Alligator](http://www.alligator.org/), a student-run newspaper in Gainesville, Florida. Editors or reporters drop a Markdown file into a designated Slack channel, have it converted to HTML and thrown into an HTML template, and have it uploaded to the Alligator's SFTP server. The bot accepts images as well. 
 
-## How is the Bot Made?
+## How was the Bot Made?
 
 Alligator bot uses Slack's [python developer kit](https://github.com/slackapi/python-slackclient) to connect to the Alligator's slack and Slack's [python slack events API](https://github.com/slackapi/python-slack-events-api) to listen for any file, photos or messages that is intended for Alligator bot.
 
